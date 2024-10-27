@@ -75,6 +75,7 @@ calculate.addEventListener('click', function(){
     let playerBudgetin = parseInt(playerBudget) 
     
     playerBudgetValue.innerText=playerBudgetin *5
+    player.value = ""
     
 })
 
@@ -92,5 +93,7 @@ calculator2.addEventListener('click', function(){
     let coachh = coach.value
     let coachvalue = parseInt(coachh)
     total.innerText= player + manegervalue + coachvalue
+    manager.value =""
+    coach.value=""
 
 })
