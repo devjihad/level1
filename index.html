@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- NAV -->
+        <nav class="flex gap-52 h-24 items-center p-16 justify-around bg-black text-white">
+            <img src="./download.png" alt="" class="h-24">
+
+            <ol class="flex gap-5 text-3xl">
+                <ul>Home </ul>
+                <ul>Product</ul>
+                <ul>Pricing </ul>
+                <ul>Contact </ul>
+            </ol>
+
+            <div class="flex">
+           
+            <button class="text-3xl bg-slate-400  w-32 rounded-xl">Login</i></button>
+
+
+            </div>
+
+
+
+        </nav>
+<!-- SECTION 2 -->
+        <div class="h-[600px] bg-slate-800 flex">
+            <div class="pt-[250px] text-white ">
+                <h1 class="text-5xl text-center text-orange-300">World most valuable player</h1>
+            <p class="text-center pt-5">There are most demandable footboll player in the world. These valeu has so much high if you want hire them you have t pay big amount of them</p>
+            </div>
+            <img src="./images-removebg-preview.png" alt="">
+
+        </div>
+<!-- SECTION 3 -->
+        <div class="h-[800px] bg-zinc-500 grid grid-cols-4 pr-52 pl-52 pt-28" >
+            <div class="h-[250px] w-[200px] bg-white">
+                <img src="./andres.jpg" alt="">
+                <div class="p-5">
+                <h1 class="text-2xl" id="and">Andres Iniesta</h1>
+                <p>140 Goal . Assist</p>
+                <button class="bg-slate-400 text-center w-32 rounded ml-4" id="Andres">Select</button>
+                </div>
+            </div>
+            <div class="h-[250px] w-[200px] bg-white">
+                <img src="./eden.jpg" alt="">
+                <div class="p-5">
+                <h1 class="text-2xl" id="edenValue">Eden Hazard</h1>
+                <p>120 Goal . Assist</p>
+                <button class="bg-slate-400 text-center w-32 rounded ml-4" id="eden">Select</button>
+                </div>
+
+            </div>
+            <div class="h-[250px] w-[200px] bg-white">
+                <img src="./mbpappe.jpeg" alt="">
+                <div class="p-5">
+                <h1 class="text-2xl" id="mbappeValue">kylian Mbappe</h1>
+                <p>135 Goal . Assist</p>
+                <button class="bg-slate-400 text-center w-32 rounded ml-4" id="mbappe">Select</button>
+                </div>
+            </div>
+            <div class="w-[220px] h-[200px] bg-slate-600 text-white px-5">
+                <H1 class="text-2xl text-center">Selected- V</H1>
+                <hr>
+                <ol id="list" class="text-xl"></ol>
+                
+            </div>
+            <div class="h-[250px] w-[200px] bg-white">
+                <img src="./mene.jpg" alt="">
+                <div class="p-5">
+                <h1 class="text-2xl" id="meneValue">Sadio Mene</h1>
+                <p>110 Goal . Assist</p>
+                <button class="bg-slate-400 text-center w-32 rounded ml-4" id="mene">Select</button>
+                </div>
+            </div>
+            <div class="h-[250px] w-[200px] bg-white">
+                <img src="./messi.jpg" alt="">
+               <div class="p-5">
+                <h1 class="text-2xl" id="messiValue">Lionel Messi</h1>
+                <p>111 Goal . Assist</p>
+                <button class="bg-slate-400 text-center w-32 rounded ml-4" id="messi">Select</button>
+               </div>
+            </div>
+            <div class="h-[250px] w-[200px] bg-white">
+                <img src="./pogba.jpg" alt="">
+                <div class="p-5">
+                <h1 class="text-2xl" id="pogbaValue">Paul Pogba</h1>
+                <p>140 Goal . Assist</p>
+                <button class="bg-slate-400 text-center w-32 rounded ml-4" id="pogba">Select</button>
+                </div>
+            </div>
+            <div class="bg-slate-800 text-sm w-[220px] h-[300px] text-slate-200 p-3">
+                <h2 class="text-2xl text-center">Player Budget</h2>
+                <hr>
+                <div class="flex gap-1 justify-between pt-2">
+                <p>Per Player</p>
+                <input type="text" name="" id="playerBudget" placeholder="player cost" class="bg-slate-100 text-black  h-5 w-24 border-none">
+                </div><br>
+                <button class="bg-slate-400 text-center w-32 rounded ml-8" id="playerCalculate">Calculate</button><br>
+                <div class="flex gap-3 justify-between">
+                <p>Player Experence  </p>
+                <p>$<span id="playerBudgetValue">00</span></p>
+                </div><br>
+                <div class="flex gap-3 justify-between">
+                <p>Manager </p>
+                <input type="text" name="" id="manager" placeholder="manager cost" class="w-24 bg-slate-100 text-black">
+                </div> <br>
+                <div class="flex justify-between">
+                <p>Coach</p>
+                <input type="text" name="" id="coach"placeholder="Coach cost" class="w-24 bg-slate-100 text-black">
+                </div><br>
+                <button class="bg-slate-400 text-center w-32 rounded ml-8" id="calculator2">Calculate total</button><br><br>
+            <div class="flex justify-between">
+                <p>Total</p>
+                <p>$<span id="total">00</span></p>
+            </div>   
+ 
+            </div>
+
+        </div>
+ <script src="./logic.js"></script>   
+</body>
+</html>

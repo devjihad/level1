@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-areas:
+    "aa ss dd ff"
+    "gg hh jj kk ";
+}
+.aa{
+    grid-area: aa;
+}
+.ss{
+    grid-area: ss;
+}
+dd{
+    grid-area: dd;
+}
+.ff{
+    grid-area: ff;
+}
+.gg{
+    grid-area: gg;
+}
+.hh{
+    grid-area: hh;
+}
+.jj{
+    grid-area: jj;
+}
+.kk{
+    grid-area: kk;
+}
